@@ -2,8 +2,8 @@ import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
 import Home from '../pages/Home/Home'
 import Sobre from '../pages/Sobre/Sobre'
-import Tasks from '../pages/Tasks/Tasks'
-import Contato from '../pages/Contato/Contato'
+import Projetos from '../pages/Projetos/Projetos'
+import Orcamentos from '../pages/Orcamentos/Orcamentos'
 
 function Rotas () {
     return (
@@ -12,8 +12,8 @@ function Rotas () {
 
                 <Route path="/" exact component={Home} />
                 <Route path="/sobre" component={Sobre} />
-                <Route path="/tasks" component={Tasks} />
-                <Route path="/contato" component={Contato} />
+                <Route path="/projetos" component={Projetos} />
+                <Route path="/orcamentos" component={Orcamentos} />
 
             </Switch>
                

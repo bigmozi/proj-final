@@ -1,11 +1,17 @@
 import './middle.styles.css'
 
+
+
+
 const Middle = (props) => {
   return (
-    <header className='middle'>
-      <div>
-      <h3>{props.children}</h3>
-      <img src={props.image} alt='' />
+    <header id ='middle' className='middle'>
+      <div className='banner'>
+      
+      <p>{props.children}</p>
+      <background src={props.background} alt ='' />
+      
+      
      </div>
     </header>
   )

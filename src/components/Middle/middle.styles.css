@@ -1,28 +1,89 @@
+*{ box-sizing: border-box;
+  margin: 0;
+
+}
+
 .middle {
-    padding: 50px;
+    /* padding: 50px;
     color: rgb(0, 0, 0);
     background-color: #e9e9e9;
     height: 58vh; 
-    text-align: center;
-    display: flex;
-    
-    
-  }
+    justify-content: space-evenly;
+     */
+   
+      background: url('');
+      background-size: cover;
+      height: 80vh;
+      color: white;
   
-  .middle h1 {
-    font-size: 30px;
-  }
-  
-  .middle img {
-    border-radius: 200px;
-    height: 40vh;
-    
+
   }
 
-  .middle img:hover{
-    opacity: 80%;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.1);
-    transition:  .5s ease;
+
+.p{
+  padding: 0px 0px 0px 0;
+  margin-bottom: 16px;
+}
+
+.banner{
+  
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  align-items: center;
+  justify-content: space-between;
+   margin-right: 20vw; 
+  
+  
+}
+
+h1{
+
+  font-size: 48px;
+  margin-bottom: 24px;
+  
+}
+
+h3{
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #6f0c8d;
+
+}
+
+
+
+.botao, .botao-sobre{
+  background-color: rgb(129, 108, 129);
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  max-width: 90%;
+  margin-top: 16px;
+} 
+
+
    
-  }
+ 
+
+.sobre{
+  display: flex;
+  
+  line-height: 1.5em;
+  margin-top: 40px;
+
+
+}
+
+.sobre-desc{
+
+  width: 50%;
+}
+
+.sobre-desc p {
+  margin-bottom: 34px;
+  margin-top: 24px;
+
+}
+
+

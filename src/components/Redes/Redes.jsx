@@ -20,7 +20,7 @@ const Redes = (props) => {
                     
                     </a>
                     
-                    <a class= "redes-links" href="www.twitter.com/variasqueixasss" target="_blank"> <FaTwitterSquare size={30} color='#fff'/> 
+                    <a class= "redes-links" href="https://www.twitter.com/variasqueixasss" target="_blank"> <FaTwitterSquare size={30} color='#fff'/> 
                         <p>/variasqueixasss</p>
                     
                     </a>
