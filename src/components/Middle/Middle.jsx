@@ -8,8 +8,8 @@ const Middle = (props) => {
     <header id ='middle' className='middle'>
       <div className='banner'>
       
-      <p>{props.children}</p>
-      <background src={props.background} alt ='' />
+      <section>{props.children}</section>
+      
       
       
      </div>

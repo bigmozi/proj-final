@@ -1,12 +1,12 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
-import List from '../../components/List/List'
+import Projetos from '../../components/Projetos/Projetos'
 
-const Tasks = () =>  {
+const Projeto = () =>  {
         return (
             <>
             <Menu />
-            <List />
+            <Projetos />
             <Footer />
 
 
@@ -14,4 +14,4 @@ const Tasks = () =>  {
         )
 }
 
-export default Tasks
+export default Projeto

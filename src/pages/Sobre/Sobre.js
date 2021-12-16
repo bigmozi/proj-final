@@ -2,6 +2,7 @@ import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
 import Middle from '../../components/Middle/Middle'
 import banner from '../../assets/banner.png'
+// import {ImageBackground} from 'react-router-dom';
 
 
 
@@ -10,9 +11,8 @@ const Sobre = () =>  {
         return (
             <>
             <Menu />
-            <Middle src={banner} alt=''>
-        
-{/* <h3> Esse projeto foi desenvolvido em dezembro de 2021, para o bootcamp Reprograma. </h3> */}
+            <Middle>
+            
 
 <div className="sobre">
     <div className="sobre-desc"> 
@@ -26,6 +26,9 @@ const Sobre = () =>  {
         <a className="botao-sobre" href="https://drive.google.com/file/d/1G0FWE0r5LzJFq3WMLFr0IpzIBoHoS4rT/view?usp=sharing" target="_blank">Veja meu CV!</a>
     </div>
     </div>
+            
+            
+{/* <h3> Esse projeto foi desenvolvido em dezembro de 2021, para o bootcamp Reprograma. </h3> */}
 
 
                 
