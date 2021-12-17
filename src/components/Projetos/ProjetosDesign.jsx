@@ -9,24 +9,25 @@ const ProjetosDes = () => {
    
 function cliqueDesign () {
     
-    
-    {listaClientes.map(peca =>
-        <div className='cliente'>
-             <li key={peca.id}>
-                <img className="" src={peca.foto} />
-                <p>{peca.legenda}</p>
+    // document.getElementById("div-clientes").innerHTML
+window.open('/clientes','_self');
+    // {listaClientes.map(peca =>
+    //     <div className='cliente'>
+    //          <li key={peca.id}>
+    //             <img className="" src={peca.foto} />
+    //             <p>{peca.legenda}</p>
 
-             </li>
+    //          </li>
 
 
-        </div>
+    //     </div>
         
         
         
-        )} 
+    //     )} 
 }
 
-const [pecas, setPecas] = useState(false);
+const [pecas, setPecas] = useState();
  
 
 
@@ -50,15 +51,17 @@ const [pecas, setPecas] = useState(false);
       <main>
             
    
-       <div className= 'div-clientes'> 
+       <div className= 'div-clientes' id='div-clientes'> 
 
              {listaProj.map(cliente =>
-            <button className='cliente' onClick={ () => cliqueDesign}>
+            <button className='cliente' onClick={cliqueDesign}>
 
              <li key={cliente.id}>
                 <img className="" src={cliente.logo} alt={cliente.nome} />
                 <p>{cliente.nome}</p>
              </li>
+            
+            
              </button>
              )}
 

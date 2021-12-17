@@ -6,6 +6,7 @@ import Projetos from '../pages/Projetos/Projetos'
  import ProjetosD from '../pages/ProjetosD/ProjetosD'
  import ProjetosF from '../pages/ProjetosF/ProjetosF'
 import Orcamentos from '../pages/Orcamentos/Orcamentos'
+import Cliente from '../pages/Clientes/Clientes'
 
 function Rotas () {
     return (
@@ -18,6 +19,7 @@ function Rotas () {
                 <Route path="/design" component={ProjetosD} />
                 <Route path="/front" component={ProjetosF} />
                 <Route path="/orcamentos" component={Orcamentos} />
+                <Route path={"/clientes"} component={Cliente} />
                 
 
 

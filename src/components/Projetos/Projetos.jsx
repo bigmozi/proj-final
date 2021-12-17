@@ -5,16 +5,16 @@ import './projetos.styles.css'
 
 const Projetos = () => {
    
-  const [projs, setProjs] = useState ([])
-  // const [newTask, setNewTask] = useState ('')
+  // const [projs, setProjs] = useState ([])
+  // // const [newTask, setNewTask] = useState ('')
 
-  function irParaProjetosDesign(){
-          const projsD = {
+  // function irParaProjetosDesign(){
+  //         const projsD = {
              
-          }
+  //         }
 
         
-  }
+  // }
     
 
   return(
