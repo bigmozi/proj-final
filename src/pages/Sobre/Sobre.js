@@ -1,6 +1,6 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
-import Middle from '../../components/Middle/Middle'
+import Main from '../../components/Main/Main'
 import banner from '../../assets/banner.png'
 // import {ImageBackground} from 'react-router-dom';
 
@@ -11,7 +11,7 @@ const Sobre = () =>  {
         return (
             <>
             <Menu />
-            <Middle>
+            <Main>
             
 
 <div className="sobre">
@@ -32,7 +32,7 @@ const Sobre = () =>  {
 
 
                 
-                 </Middle>
+                 </Main>
             <Footer/>
             </>
         )

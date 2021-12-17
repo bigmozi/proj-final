@@ -8,24 +8,24 @@ const Footer = () => {
 
 
       <div className="redes">
-                    <a class= "redes-links" href="https://www.facebook.com/bigmozi/" target="_blank"> <FaFacebookSquare size={30} color='#fff'/>
+                    <a className= "redes-links" href="https://www.facebook.com/bigmozi/" target="_blank"> <FaFacebookSquare size={30} color='#fff'/>
                        
-                       
+
                     
                     </a>
                     
-                    <a class= "redes-links" href="https://github.com/bigmozi" target="_blank"> <FaGithubSquare size={30} color='#fff'/>
+                    <a className= "redes-links" href="https://github.com/bigmozi" target="_blank"> <FaGithubSquare size={30} color='#fff'/>
                         
                       
                     
                     </a>
                     
-                    <a class= "redes-links" href="https://www.twitter.com/variasqueixasss" target="_blank"> <FaTwitterSquare size={30} color='#fff'/> 
+                    <a className= "redes-links" href="https://www.twitter.com/variasqueixasss" target="_blank"> <FaTwitterSquare size={30} color='#fff'/> 
                                           
                     </a>
                     
            
-                    <a class= "redes-links" href="https://www.linkedin.com/in/ane-carolina" target="_blank"> <AiFillLinkedin size={30} color='#fff'/> 
+                    <a className= "redes-links" href="https://www.linkedin.com/in/ane-carolina" target="_blank"> <AiFillLinkedin size={30} color='#fff'/> 
                     
                     </a>
                     </div>

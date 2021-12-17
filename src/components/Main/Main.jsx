@@ -1,11 +1,11 @@
-import './middle.styles.css'
+import './main.styles.css'
 
 
 
 
-const Middle = (props) => {
+const Main = (props) => {
   return (
-    <header id ='middle' className='middle'>
+    <header id ='main' className='main'>
       <div className='banner'>
       
       <section>{props.children}</section>
@@ -17,4 +17,4 @@ const Middle = (props) => {
   )
 }
 
-export default Middle
+export default Main

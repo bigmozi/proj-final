@@ -1,15 +1,12 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
-import Main from '../../components/Main/Main'
+import ProjetosDes from '../../components/Projetos/ProjetosDesign'
 
-
-
-const Orcamento = () =>  {
+const ProjetoD = () =>  {
         return (
             <>
             <Menu />
-            <Main />
-           
+            <ProjetosDes />
             <Footer />
 
 
@@ -17,4 +14,4 @@ const Orcamento = () =>  {
         )
 }
 
-export default Orcamento
+export default ProjetoD

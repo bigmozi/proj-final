@@ -1,6 +1,6 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
-import Middle from '../../components/Middle/Middle'
+import Middle from '../../components/Main/Main'
 //import Mozi from '../../assets/mozi.jpg'
 
 const Home = () =>  {

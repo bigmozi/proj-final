@@ -5,7 +5,16 @@ import './projetos.styles.css'
 
 const Projetos = () => {
    
+  const [projs, setProjs] = useState ([])
+  // const [newTask, setNewTask] = useState ('')
 
+  function irParaProjetosDesign(){
+          const projsD = {
+             
+          }
+
+        
+  }
     
 
   return(
@@ -21,10 +30,10 @@ const Projetos = () => {
 
 
       <li>
-        <Link className="button-design" to="/projetos/design">Design e Marketing</Link>
+        <Link className="button-design" to="/design">Design e Marketing</Link>
       </li>
       <li>
-        <Link  className="button-front" to="/projetos/front">Front End</Link>
+        <Link  className="button-front" to="/front">Front End</Link>
       </li>
 
             

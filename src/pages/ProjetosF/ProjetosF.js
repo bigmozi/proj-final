@@ -1,15 +1,12 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
-import Main from '../../components/Main/Main'
+import ProjetosFront from '../../components/Projetos/ProjetosFront'
 
-
-
-const Orcamento = () =>  {
+const ProjetoF = () =>  {
         return (
             <>
             <Menu />
-            <Main />
-           
+            <ProjetosFront />
             <Footer />
 
 
@@ -17,4 +14,4 @@ const Orcamento = () =>  {
         )
 }
 
-export default Orcamento
+export default ProjetoF
