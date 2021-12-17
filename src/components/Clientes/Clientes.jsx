@@ -11,9 +11,16 @@ const Clientes = () => {
 
   return(
     <>
-     <section className='projs'>
+     <section className='projs-c'>
       <header>
-        <h2>Design e Marketing</h2>
+     
+         
+     {listaClientes.map(name => 
+        
+       <h2>  {name.cliente} </h2>)}
+        
+           
+            
 
         
       </header>
@@ -21,13 +28,14 @@ const Clientes = () => {
       <main>
             
    
-       <div className= 'div-clientes' id=''> 
+       <div className= 'cliente-div' id=''> 
 
        {listaClientes.map(peca =>
-        <div className='cliente'>
+        <div className='cliente-solo'>
              <li key={peca.id}>
                 <img className="" src={peca.foto} />
-                <p>{peca.legenda}</p>
+                <p>Legenda:</p>
+                <p> {peca.legenda}</p>
 
              </li>
 

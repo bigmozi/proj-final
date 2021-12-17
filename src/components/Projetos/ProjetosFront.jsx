@@ -16,7 +16,7 @@ const ProjetosFront = () => {
 
 //   }
 
-  
+  //a ideia aqui é consumir a api do GIT
 
 
     
@@ -33,14 +33,14 @@ const ProjetosFront = () => {
       <main>
 
 
-            <li> 
+            <li className='div-clientes'> 
 
-            <div className='div-projs'>React</div>
-            <div className='div-projs'>CSS</div>
-            <div className='div-projs'>React</div>
-            <div className='div-projs'>CSS</div>
-            <div className='div-projs'>React</div>
-            <div className='div-projs'>CSS</div>
+            <div className='cliente'>React</div>
+            <div className='cliente'>CSS</div>
+            <div className='cliente'>React</div>
+            <div className='cliente'>CSS</div>
+            <div className='cliente'>React</div>
+            <div className='cliente'>CSS</div>
           
 
             </li>            
