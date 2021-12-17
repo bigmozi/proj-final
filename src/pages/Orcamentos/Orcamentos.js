@@ -8,7 +8,7 @@ const Orcamento = () =>  {
         return (
             <>
             <Menu />
-            <Main />
+            <Main> <h1> 🚧🚧 EM BREVE 🚧🚧 </h1> </Main>
            
             <Footer />
 
