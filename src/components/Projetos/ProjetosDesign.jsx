@@ -27,7 +27,7 @@ window.open('/clientes','_self');
     //     )} 
 }
 
-const [pecas, setPecas] = useState();
+// const [pecas, setPecas] = useState();
  
 
 
@@ -54,7 +54,7 @@ const [pecas, setPecas] = useState();
        <div className= 'div-clientes' id='div-clientes'> 
 
              {listaProj.map(cliente =>
-            <button className='cliente' onClick={cliqueDesign}>
+            <Link className='cliente' to="/clientes">
 
              <li key={cliente.id}>
                 <img className="" src={cliente.logo} alt={cliente.nome} />
@@ -62,7 +62,7 @@ const [pecas, setPecas] = useState();
              </li>
             
             
-             </button>
+             </Link>
              )}
 
        </div>
